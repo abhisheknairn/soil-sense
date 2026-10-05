@@ -33,7 +33,7 @@ It reads real-time telemetry from an ESP32 or simulated sensor array, executes d
 
 Conventional agricultural automation relies on crude static thresholds (e.g. `if moisture < 30%: pump ON`). In reality, soil matric potential is tightly coupled with atmospheric evaporative demand (Vapor Pressure Deficit, temperature, solar radiation) and chemical equilibria (solute concentration, osmotic salt burn, nitrate leaching).
 
-AgriChem AI solves this by introducing:
+SoilSence AI solves this by introducing:
 
 - **Sensor Health Engine**: Evaluates telemetry validity _before_ AI inference. Catches missing data, out-of-bounds spikes, flatlining, drift, and analog vs digital sensor disagreement.
 - **Mass Balances**: Calculates $\Delta M_w = W_{in} - W_{loss}$ (Water Balance) and $\Delta N = N_{input} - N_{utilization} - N_{loss}$ (Nitrogen Balance).
